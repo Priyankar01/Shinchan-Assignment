@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Shinchan</title>
+    <link rel="stylesheet" href="./CSS/login.css" />
+    <link rel="stylesheet" href="./CSS/navbar.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <nav class="navbar-main">
+        <div class="logo-section">
+          <a class="logo" href="./index.html">
+            <img src="./Assets/SHINCHAN.png" alt="" />
+          </a>
+        </div>
+        <div class="link-section">
+          <a href="./index.html#home">
+            <p class="link">Home</p>
+          </a>
+          <a href="./index.html#about">
+            <p class="link">About</p>
+          </a>
+          <a href="./index.html#contact">
+            <p class="link">Contact</p>
+          </a>
+        </div>
+        <div class="nav-right-section">
+          <a href="./login.html">
+            <p id="signup">Signup</p>
+          </a>
+        </div>
+      </nav>
+    </header>
+    <div class="main-container">
+      <div class="left-section">
+        <img src="./Assets/shinchan-img.png" alt="" />
+      </div>
+      <div class="right-section">
+        <form class="login-form">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Your Username.." />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Your Email.." />
+
+          <label for="number">Number</label>
+          <input type="tel" id="number" placeholder="Your Number.." />
+
+          <p id="result"></p>
+
+          <button type="button" onclick="validateForm()">SignUp</button>
+        </form>
+      </div>
+    </div>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>

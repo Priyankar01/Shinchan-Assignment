@@ -1,0 +1,39 @@
+.contact-section {
+  background-color: #1d1f29;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+}
+
+.contact-top-section iframe{
+  border-radius: 5px;
+}
+.form {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form input {
+  padding: 5px;
+}
+
+.form button {
+  padding: 0.4rem 1rem;
+  background-color: #fff;
+  color: #1d1f29;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.form button:hover {
+  background-color: #ffd780;
+  color: #1d1f29;
+}

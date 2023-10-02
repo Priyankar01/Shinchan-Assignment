@@ -1,0 +1,17 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem 10rem;
+  font-size: 1rem;
+}
+
+.about-section h3 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.about-section p {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,54 @@
+/* ffffff ffd780 1d1f29*/
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+.navbar-main {
+  display: flex;
+  background-color: #1d1f29;
+  font-family: sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.logo-section {
+  display: flex;
+  color: #fff;
+  margin-left: 2rem;
+}
+.logo-section img {
+  width: 10rem;
+}
+
+.link-section {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-right-section {
+  margin-right: 1.5rem;
+}
+.nav-right-section p {
+  background-color: #ffd780;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #1d1f29;
+  transition: all 0.2s;
+}
+
+.nav-right-section p:hover {
+  background-color: #fff;
+  color: #1d1f29;
+}
+
+@media screen and (max-width: 650px) {
+  .link-section {
+    display: none;
+  }
+  
+}
